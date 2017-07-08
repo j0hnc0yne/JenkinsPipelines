@@ -1,4 +1,6 @@
 node{
-  sh "First Test"
+  stage("Init"){
+    sh "First Test"
+  }
   
 }
